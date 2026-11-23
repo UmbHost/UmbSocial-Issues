@@ -1,0 +1,22 @@
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: What you're trying to do, and what makes it hard today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How UmbSocial could help.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I've searched the existing ideas.
+          required: true

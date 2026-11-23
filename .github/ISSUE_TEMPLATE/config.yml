@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/UmbHost/UmbSocial-Issues/discussions/new?category=q-a
+    about: Help with setting up or using UmbSocial, from the community.
+  - name: Suggest an idea
+    url: https://github.com/UmbHost/UmbSocial-Issues/discussions/new?category=ideas
+    about: Something you'd like UmbSocial to do.
+  - name: Documentation
+    url: https://docs.umb.social
+    about: Check the documentation and its error codes first.
+  - name: Support tickets (paid licences)
+    url: https://docs.umb.social/17/support/support-tickets/
+    about: With a paid licence, open a ticket through UmbPanel.

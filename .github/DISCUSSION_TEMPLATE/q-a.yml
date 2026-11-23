@@ -1,0 +1,27 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Everything here is public.** Leave out licence keys, access tokens, app passwords, webhook addresses, client secrets and personal data.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What you're trying to do, and what you've tried.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: UmbSocial, Umbraco and Umbraco Automate.
+      placeholder: UmbSocial 17.0.0-beta0480, Umbraco 17.6.2, Automate 17.5.1
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I've checked the documentation and searched the existing questions.
+          required: true
+        - label: I've removed keys, tokens, passwords, webhook addresses and personal data.
+          required: true

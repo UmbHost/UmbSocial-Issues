@@ -1,0 +1,115 @@
+name: Bug report
+description: Something in UmbSocial doesn't work as the documentation says.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Everything here is public.** Remove licence keys, access tokens, app passwords, webhook addresses, client secrets and personal data from your text, logs and screenshots.
+
+        With a paid licence, you can open a support ticket through UmbPanel instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open UmbSocial › Compose
+        2. …
+    validations:
+      required: true
+  - type: input
+    id: umbsocial-version
+    attributes:
+      label: UmbSocial version
+      placeholder: 17.0.0-beta0480
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      options:
+        - Free
+        - Pro
+        - Agency
+    validations:
+      required: true
+  - type: input
+    id: umbraco-version
+    attributes:
+      label: Umbraco CMS version
+      placeholder: 17.6.2
+    validations:
+      required: true
+  - type: input
+    id: automate-version
+    attributes:
+      label: Umbraco Automate version
+      placeholder: 17.5.1
+    validations:
+      required: true
+  - type: dropdown
+    id: database
+    attributes:
+      label: Database
+      options:
+        - SQL Server
+        - SQLite
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: network
+    attributes:
+      label: Network
+      description: The networks it happens on, if any.
+      multiple: true
+      options:
+        - Bluesky
+        - Facebook
+        - Google Business Profile
+        - Instagram
+        - LinkedIn company page
+        - LinkedIn profile
+        - Mastodon
+        - Microsoft Teams
+        - Pinterest
+        - Threads
+        - X
+        - A custom network
+        - Not about a network
+    validations:
+      required: true
+  - type: input
+    id: provider-version
+    attributes:
+      label: Provider package and version
+      description: For a problem with a network.
+      placeholder: UmbHost.Automate.Bluesky 1.1.0-beta6
+  - type: textarea
+    id: error
+    attributes:
+      label: Error code, message or log
+      description: The error code or message UmbSocial shows, and any log entries. For a failed or unknown post, the step's error from its run in Umbraco Automate. This is shown as code, so there's no need for backticks.
+      render: text
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else?
+      description: Screenshots, whether the site is load balanced, and whether it happens every time.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I've searched the existing issues.
+          required: true
+        - label: I've removed keys, tokens, passwords, webhook addresses and personal data.
+          required: true
