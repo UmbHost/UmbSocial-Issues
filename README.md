@@ -16,4 +16,4 @@ With a paid licence, you can also [open a support ticket](https://docs.umb.socia
 
 Everything here is public. Never include licence keys, access tokens, app passwords, webhook addresses, client secrets or personal data, and check logs and screenshots for them. If you have posted one by mistake, revoke it straight away.
 
-Please don't report security problems here.
+Please don't report security problems in issues or discussions. [Report them privately](https://github.com/UmbHost/UmbSocial-Issues/security/advisories/new) instead: see the [security policy](SECURITY.md).
