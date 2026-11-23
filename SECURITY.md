@@ -12,4 +12,4 @@ Include:
 
 Leave out licence keys, access tokens, passwords and other people's data. Only test on sites you own or have permission to test.
 
-This covers UmbSocial's packages and the UmbHost.Automate connectors. Report problems in Umbraco itself, including Umbraco Automate, [to Umbraco](https://umbraco.com/about-us/trust-center/security-and-umbraco/how-to-report-a-vulnerability-in-umbraco/).
+This covers UmbSocial's packages and the UmbHost.Automate connectors. Report problems in Umbraco itself, including Umbraco Automate, [to Umbraco](https://umbraco.com/trust-center/security-and-umbraco/how-to-report-a-vulnerability-in-umbraco/).
